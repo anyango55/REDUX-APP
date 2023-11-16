@@ -12,10 +12,10 @@ const CartItem = ({ name, quantity, total, price, id }) => {
     id,
     price,
   }))
- }
+ };
 
   const decreaseCartItem = () => {
-
+    dispatch(cartActions.removeFromCart(id));
   };
   // const dispatch = useDispatch();
   // const removeHandler = () => {
