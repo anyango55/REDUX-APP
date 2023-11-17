@@ -20,7 +20,7 @@ const Header = () => {
               className="header-h2"
               style={{ fontFamily: "monospace", fontSize: "30px" }}
             >
-              EDUKA Shopping App
+              REACT REDUX
             </h2>
           </li>
           <li>
